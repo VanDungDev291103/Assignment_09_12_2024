@@ -6,12 +6,12 @@ public class CalTax {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
 
-        String nameProduct;
+        String productName;
         int quantity;
         double price;
 
         System.out.print("Nhập tên sản phẩm: ");
-        nameProduct = scan.nextLine();
+        productName = scan.nextLine();
 
         System.out.println("nhập số lượng: ");
         quantity = scan.nextInt();
