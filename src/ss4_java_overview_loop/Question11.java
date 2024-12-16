@@ -16,8 +16,8 @@ public class Question11 {
 //            double fact = 1;
 //            for (int j = 1; j <= (2 * i - 1); j++) {
 //                fact = fact * j;
-//                sum += (double) 1 / fact;
 //            }
+//            sum += (double) 1 / fact;
 //        }
 
         //Cách 2 sử dụng 1 vòng lặp
