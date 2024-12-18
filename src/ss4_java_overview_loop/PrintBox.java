@@ -10,8 +10,8 @@ public class PrintBox {
         System.out.print("Nhập vào chiều dài cạnh của hình vuông: ");
         int length = sc.nextInt();
 
-        for (int i = 1; i <= length; i++) {
-            for (int j = 1; j <= length; j++) {
+        for (int i = 1; i <= length; i++) {//dòng
+            for (int j = 1; j <= length; j++) {// cột
                 if (i == 1 || i == length || j == 1 || j == length) {
                     System.out.print("* ");
                 } else {
